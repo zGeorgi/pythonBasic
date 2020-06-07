@@ -1,0 +1,26 @@
+git init "projectName" => create git repositori
+thf
+git status   =>show current states
+git add <filename>   =>add the file in stash area
+git commit -m "message text"  =>commite the file  with message
+rm -rf .git  => delete all content in .git folder
+git init .  => git initialize existing folder
+git add .  =>  adding more than one file
+git add * => add all files
+git commit => commit files and open default text editor for write the message
+git log => list with all commits logs history
+git show  => like "log" with more details
+git ls-files => show all trackt files
+git commit -am "msg" => "-am" to add modified file
+git reset HEAD <filename> =>unstage changes 
+git checkout --<fileName>  => reverse back any changes to last stable stage
+git help log =>shows options on "git log" 
+git log --oneline --graph --decorate --all =>nice view on log history
+git config --global alias.hist "log --oneline --graph --decorate --all" => create keyword "hist" to call log history
+git config --global --list => show list info
+git mv <file_name> <newfile_name> => rename the file. the new file have to be commit
+git rm <file_name>  => remove the file. to complete delete have to commit
+git add -u => update deleted files in stage area.
+git add -A => update raname file and put everything in stage area
+.gitignore => content files that need to be exclude. the .gitignore need to be commit
+
