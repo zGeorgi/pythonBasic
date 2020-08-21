@@ -5,7 +5,7 @@
 
 class Calculator:
     num = 100  #class variables
-        # default constructor
+       
 
     def __init__(self, a, b):
         self.firstNumber = a
